@@ -1,3 +1,4 @@
+package src;
 /**
  * Incident: store information about value, post code, date of crime, position and year of an earthquake event
  * 
