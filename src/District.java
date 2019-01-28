@@ -23,5 +23,40 @@ public class District
 		this.incidentList = new ArrayList<>();
 	}
 	
-
+	/**
+	 * Add an incident to the list
+	 */
+	public void addIncident(Incident incident)
+	{
+		incidentList.add(incident);
+	}
+	
+	/**
+	 * Get name
+	 */
+	public String getName()
+	{
+		return name;
+	}
+	
+	/**
+	 * get the list of incidents
+	 */
+	public ArrayList getIncidentList()
+	{
+		return incidentList;
+	}
+	
+	/**
+	 * Retrieve largest value incident
+	 * @return incident with biggest value
+	 */
+	public Incident findBiggest() 
+	{
+		double maxValue = 0.0;
+		Incident highestValueIncident = null;
+		
+		
+		return highestValueIncident;
+	}
 }
